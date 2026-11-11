@@ -34,4 +34,5 @@ if (file_exists($controllerFile)) {
     die ("Erro: O arquivo do controlador não foi encontrado em:
     {$controllerFile}");
 }
+// Usar o critério de exclusão lógica, só quem pode usar o físco é o admin com um bom questionamento
 ?>
